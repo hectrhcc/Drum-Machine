@@ -1,0 +1,145 @@
+body{
+    background-color:#8D8D8D;
+  }
+  
+  #drum-machine{
+    display:flex;
+    position: relative;
+    top:110px;
+    left:10px;
+    background-color:#B3B3B3;
+    border:5px solid #FFA500;
+    margin: 0 auto;
+    width:625px;
+    height:285px;
+    padding:15px;
+  }
+  
+  #display{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px; 
+    width:50%;
+    margin:20px;
+    position: relative;
+    top:-15px;
+    right:130px;
+  }
+  
+  .drum-pad {
+    border:0px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    background-color:#808080;
+    padding:30px 45px;
+    justify-content: center; /*centrar letras*/
+    align-items: center;
+    display: flex;
+    border-right: 1px solid black; 
+    border-bottom: 1px solid black; 
+     font-weight: bold;
+    font-family: Consolas, monospace;
+    font-size: 18px;
+    cursor:pointer;
+     -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    user-select: none; /* Standard */
+  }
+  
+  .drum-pad-clicked {
+    /* estilos cuando se hace click */
+    background-color:#FFA500;
+    border:none;
+    box-shadow: none;
+  }
+  
+  #Heater1, #Heater2, #Heater3, #Heater4, #clap, #open-hh, #kick-n-hat, #kick, #close-hh{
+  
+  }
+  .otros {
+    justify-content: center;
+    text-align:center;
+    position: relative;
+    width:20%;
+    top: 24px;
+    left:390px;
+    height:180px;
+    
+  }
+  .power{  
+    display:block;
+    font-family:Consolas, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    padding:4px;
+    margin-left:50px;
+    margin-bottom:1px;
+  }
+  
+  .caption{
+    display:block;
+    font-family:Consolas, monospace;
+    font-weight: bold;
+    background-color:#808080;
+    width:152px;
+    padding:20px;
+    font-size: 18px;
+    justify-content: center;
+    text-align:center;
+    margin-bottom:20px;
+    height:15px; /*fija la altura*/
+  }
+  
+  .linea{
+    position:relative;
+    background-color:#424242;
+    display:block;
+    width:227px;
+    padding:1px;
+    border:2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+    position: relative;
+      top: 7px;
+    right:20px;
+     z-index: 1;
+  }
+  
+  .bank{
+    display:block;
+    font-family:Consolas, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    padding:10px;
+    margin-left:40px;
+  }
+  
+  .switch {
+    display:block;
+    background-color:black;
+    padding:3px;
+    margin-bottom:18px;
+    width:42px;
+    margin-left:64px;
+    border: 1px solid black;
+  }
+  
+  .azul1 {
+    padding:9px;
+    background-color:#0000FF;
+    width:10%;
+    cursor:pointer;
+  }
+  
+  .azul2 {
+    position:absolute;
+    top: 146px;
+    left: 95px;
+    background-color:#0000FF;
+    width:4%;
+    height:23px;
+    padding:1.7px;
+     z-index: 2;
+    cursor:pointer;
+  }
