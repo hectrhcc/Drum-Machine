@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Estilo.css'
 
 class Contenedor extends React.Component {
@@ -11,6 +10,7 @@ class Contenedor extends React.Component {
       id2:null
     }
     this.handleClick = this.handleClick.bind(this);
+    this.handleKeyDown = this.handleKeyDown.bind(this);
   }
   
   
